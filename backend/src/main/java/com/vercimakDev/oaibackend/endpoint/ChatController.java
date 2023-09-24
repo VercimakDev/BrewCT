@@ -1,7 +1,7 @@
-package controller;
+package com.vercimakDev.oaibackend.endpoint;
 
-import dtos.ChatRequest;
-import dtos.ChatResponse;
+import com.vercimakDev.oaibackend.endpoint.dto.ChatRequest;
+import com.vercimakDev.oaibackend.endpoint.dto.ChatResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

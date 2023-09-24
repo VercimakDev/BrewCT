@@ -1,5 +1,5 @@
-package dtos;
-import entity.Message;
+package com.vercimakDev.oaibackend.endpoint.dto;
+import com.vercimakDev.oaibackend.entity.Message;
 
 import java.util.List;
 

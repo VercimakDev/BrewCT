@@ -1,4 +1,4 @@
-package entity;
+package com.vercimakDev.oaibackend.entity;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -25,7 +25,7 @@ public class Message {
     }
 
     @JsonCreator
-    public Message(@JsonProperty("sender") String role, @JsonProperty("content") String content) {
+    public Message(@JsonProperty("role") String role, @JsonProperty("content") String content) {
         this.role = role;
         this.content = content;
     }

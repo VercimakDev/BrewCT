@@ -1,4 +1,4 @@
-package config;
+package com.vercimakDev.oaibackend.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
