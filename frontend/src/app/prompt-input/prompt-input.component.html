@@ -1,13 +1,27 @@
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>OpenAI Prompt Input</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <mat-form-field>
-      <textarea matInput [(ngModel)]="userInput" placeholder="Enter your prompt"></textarea>
-    </mat-form-field>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button color="primary" (click)="sendPrompt()">Send Prompt</button>
-  </mat-card-actions>
-</mat-card>
+<div class="container">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>Input for OpenAI API</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="form-field">
+        <mat-form-field>
+          <textarea matInput [(ngModel)]="userInput" placeholder="Enter your prompt"></textarea>
+        </mat-form-field>
+      </div>
+      <div class="form-field">
+        <mat-form-field>
+          <label for="responseContent">OpenAI API's Response:</label>
+          <textarea id="responseContent" matInput [readonly]="true" [value]="responseContent"></textarea>
+        </mat-form-field>
+      </div>
+      <div *ngIf="loading" class="loading-indicator">
+        <mat-spinner diameter="50"></mat-spinner>
+        <p>Loading...</p>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="sendPrompt()">Send Prompt</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
