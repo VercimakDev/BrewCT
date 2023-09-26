@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import {SharedService} from "../shared.service";
 
 @Component({
   selector: 'app-prompt-input',
@@ -7,11 +8,22 @@ import { HttpClient, HttpParams } from '@angular/common/http';
   styleUrls: ['./prompt-input.component.css']
 })
 export class PromptInputComponent {
+  prompts: any[] = [];
+  currentPromptIndex: number = 0;
   userInput: string = '';
   responseContent: string = '';
   loading: boolean = false;
+  executed: boolean = false;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,
+              private sharedService: SharedService) { }
+  ngOnInit() {
+    // Retrieve prompts from the shared service
+    this.prompts = this.sharedService.getPrompts();
+
+    // Pre-fill userInput with the text from the first prompt
+    this.updateUserInput();
+  }
 
   sendPrompt() {
     this.loading = true;
@@ -23,6 +35,21 @@ export class PromptInputComponent {
       // Handle the response from the backend as needed
       this.responseContent = response.choices[0].message.content;
       this.loading = false;
+      this.executed = true;
     });
   }
+  nextPrompt() {
+    // Move to the next prompt
+    if (this.currentPromptIndex < this.prompts.length - 1) {
+      this.currentPromptIndex++;
+      this.updateUserInput();
+    }
+  }
+
+  updateUserInput() {
+    // Set userInput with the text of the current prompt
+    this.userInput = this.prompts[this.currentPromptIndex].text;
+    this.responseContent = '';
+    this.executed = false;
+    }
 }

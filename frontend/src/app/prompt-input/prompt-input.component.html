@@ -5,12 +5,12 @@
     </mat-card-header>
     <mat-card-content>
       <div class="form-field">
-        <mat-form-field>
+        <mat-form-field class="full-width">
           <textarea matInput [(ngModel)]="userInput" placeholder="Enter your prompt"></textarea>
         </mat-form-field>
       </div>
       <div class="form-field">
-        <mat-form-field>
+        <mat-form-field class="full-width">
           <label for="responseContent">OpenAI API's Response:</label>
           <textarea id="responseContent" matInput [readonly]="true" [value]="responseContent"></textarea>
         </mat-form-field>
@@ -21,7 +21,8 @@
       </div>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="primary" (click)="sendPrompt()">Send Prompt</button>
+      <button *ngIf="!executed" mat-raised-button color="primary" class="align-left" (click)="sendPrompt()">Send Prompt</button>
+      <button *ngIf="executed" mat-raised-button color="primary" class="align-right" (click)="nextPrompt()">Next</button>
     </mat-card-actions>
   </mat-card>
 </div>

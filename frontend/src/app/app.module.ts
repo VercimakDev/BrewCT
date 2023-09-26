@@ -11,11 +11,15 @@ import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
 import {HttpClientModule} from "@angular/common/http";
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import { PromptUploadComponent } from './prompt-upload/prompt-upload.component';
+import {MatListModule} from "@angular/material/list";
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PromptInputComponent
+    PromptInputComponent,
+    PromptUploadComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,9 @@ import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
     MatButtonModule,
     HttpClientModule,
     MatProgressSpinnerModule,
-    CommonModule
+    CommonModule,
+    MatListModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

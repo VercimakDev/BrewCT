@@ -9,7 +9,7 @@
 
 /* Style the card */
 .card {
-  max-width: 400px; /* Adjust the maximum width as needed */
+  max-width: 80%; /* Adjust the maximum width as needed */
   width: 100%;
   padding: 20px;
   text-align: center;
@@ -37,3 +37,19 @@
   font-weight: bold;
 }
 
+/* Set text fields to cover 80% of the width inside the container */
+.full-width {
+  width: 100%;
+  margin: 0 auto; /* Center the text fields within the card */
+}
+
+/* Align the "Send" button to the left and "Next" button to the right */
+.align-left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.align-right {
+  margin-left: auto;
+  margin-right: 0;
+}
