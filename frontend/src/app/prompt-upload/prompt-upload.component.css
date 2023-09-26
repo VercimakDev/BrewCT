@@ -1,0 +1,89 @@
+/* Style the card */
+.card {
+  max-width: 80%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Style the form fields */
+.form-field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Style the loading text */
+.loading-indicator p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Set text fields to cover 80% of the width inside the container */
+.full-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Align the "Go to Input" button to the left */
+.align-left {
+  margin-left: 0;
+}
+
+/* Center the "Go to Input" button horizontally */
+.mat-card-actions {
+  display: flex;
+  justify-content: center;
+}
+/* Custom label style */
+.custom-label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333; /* Customize the text color */
+}
+
+/* Custom input style */
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  color: #333; /* Customize the text color */
+  margin-top: 5px;
+}
+
+/* Style the mat-list container */
+.mat-list {
+  border: 1px solid #ccc; /* Add a border around the list */
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Style mat-list-item */
+.mat-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Add a border between list items */
+}
+
+/* Style the last list item to remove the border */
+.mat-list-item:last-child {
+  border-bottom: none;
+}
+
+/* Style the mat-line content */
+.mat-line {
+  font-size: 14px;
+  color: #333; /* Customize the text color */
+}
+
+/* Add margin between list items */
+.mat-list-item + .mat-list-item {
+  margin-top: 10px;
+}
