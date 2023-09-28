@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import {SharedService} from "../shared.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-prompt-input',
@@ -14,9 +15,12 @@ export class PromptInputComponent {
   responseContent: string = '';
   loading: boolean = false;
   executed: boolean = false;
+  responseRating: number = 5;
+  responseFeedback: string = '';
 
   constructor(private http: HttpClient,
-              private sharedService: SharedService) { }
+              private sharedService: SharedService,
+              private router: Router) { }
   ngOnInit() {
     // Retrieve prompts from the shared service
     this.prompts = this.sharedService.getPrompts();
@@ -51,5 +55,11 @@ export class PromptInputComponent {
     this.userInput = this.prompts[this.currentPromptIndex].text;
     this.responseContent = '';
     this.executed = false;
+    this.responseRating = 5;
+    this.responseFeedback = '';
     }
+
+  navigateToUpload() {
+    this.router.navigate(['/uploader']);
+  }
 }

@@ -14,6 +14,7 @@ import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import { PromptUploadComponent } from './prompt-upload/prompt-upload.component';
 import {MatListModule} from "@angular/material/list";
 import { AppRoutingModule } from './app-routing.module';
+import {MatSelectModule} from "@angular/material/select";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AppRoutingModule } from './app-routing.module';
     MatProgressSpinnerModule,
     CommonModule,
     MatListModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

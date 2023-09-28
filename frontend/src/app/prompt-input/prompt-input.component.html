@@ -6,7 +6,7 @@
     <mat-card-content>
       <div class="form-field">
         <mat-form-field class="full-width">
-          <textarea matInput [(ngModel)]="userInput" placeholder="Enter your prompt"></textarea>
+          <textarea matInput [(ngModel)]="userInput" placeholder="Enter your prompt" [readOnly]="executed"></textarea>
         </mat-form-field>
       </div>
       <div class="form-field">
@@ -15,14 +15,35 @@
           <textarea id="responseContent" matInput [readonly]="true" [value]="responseContent"></textarea>
         </mat-form-field>
       </div>
+      <div *ngIf="executed" class="form-field">
+        <mat-form-field class="full-width">
+          <label for="rating">Rating (1-5):</label>
+          <mat-select id="rating" [(ngModel)]="responseRating" name="rating">
+            <mat-option value="1">1</mat-option>
+            <mat-option value="2">2</mat-option>
+            <mat-option value="3">3</mat-option>
+            <mat-option value="4">4</mat-option>
+            <mat-option value="5">5</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div *ngIf="executed" class="form-field">
+        <mat-form-field class="full-width">
+          <label for="feedback">Feedback (Optional):</label>
+          <textarea id="feedback" matInput [(ngModel)]="responseFeedback" placeholder="Enter your feedback"></textarea>
+        </mat-form-field>
+      </div>
       <div *ngIf="loading" class="loading-indicator">
         <mat-spinner diameter="50"></mat-spinner>
         <p>Loading...</p>
       </div>
+      <div *ngIf="prompts.length > 0" class="mat-line" mat-line>{{ currentPromptIndex+1 }}/{{prompts.length}}</div>
     </mat-card-content>
     <mat-card-actions>
       <button *ngIf="!executed" mat-raised-button color="primary" class="align-left" (click)="sendPrompt()">Send Prompt</button>
-      <button *ngIf="executed" mat-raised-button color="primary" class="align-right" (click)="nextPrompt()">Next</button>
+      <button *ngIf="executed && !(currentPromptIndex+1==prompts.length)" mat-raised-button color="primary" class="align-right" (click)="nextPrompt()">Next</button>
+      <button *ngIf="executed && (currentPromptIndex+1==prompts.length)" mat-raised-button color="primary" class="align-right" (click)="navigateToUpload()">Test another set of prompts</button>
     </mat-card-actions>
   </mat-card>
 </div>

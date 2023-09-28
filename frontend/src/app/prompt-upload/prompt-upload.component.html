@@ -24,6 +24,6 @@
     </div>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-raised-button color="primary" class="align-left" (click)="navigateToInput()">Go to Input</button>
+    <button *ngIf="prompts.length > 0" mat-raised-button color="primary" class="align-left" (click)="navigateToInput()">Continue</button>
   </mat-card-actions>
 </mat-card>
