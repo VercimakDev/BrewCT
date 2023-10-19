@@ -29,4 +29,12 @@ public class Message {
         this.role = role;
         this.content = content;
     }
+
+    @Override
+    public String toString() {
+        return "Message{" +
+                "role='" + role + '\'' +
+                ", content='" + content + '\'' +
+                '}';
+    }
 }
