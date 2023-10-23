@@ -1,6 +1,7 @@
 package com.vercimakDev.oaibackend.endpoint.dto;
 
 import com.vercimakDev.oaibackend.entity.Message;
+import org.springframework.http.HttpEntity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,13 +52,17 @@ public class ChatRequest {
         this.temperature = temperature;
     }
 
+    // convert the object to a json HttpEntity<String>
+    public HttpEntity<String> toHttpEntity() {
+        return new HttpEntity<>(this.toString());
+    }
     @Override
     public String toString() {
-        return "ChatRequest{" +
-                "model='" + model + '\'' +
-                ", messages=" + messages +
-                ", n=" + n +
-                ", temperature=" + temperature +
+        return "{" +
+                "\"model\":\"" + model + '\"' +
+                ", \"messages\":" + messages +
+                ", \"n\":\"" + n +"\""+
+                ", \"temperature\":\"" + temperature +"\""+
                 '}';
     }
 }

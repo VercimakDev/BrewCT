@@ -1,6 +1,7 @@
 package com.vercimakDev.oaibackend.endpoint;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vercimakDev.oaibackend.endpoint.dto.ChatRequest;
 import com.vercimakDev.oaibackend.endpoint.dto.ChatResponse;
 import com.vercimakDev.oaibackend.entity.Feedback;
@@ -8,6 +9,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,8 +47,13 @@ public class ChatController {
     @GetMapping("/chat")
     public ChatResponse chat(@RequestParam String prompt) {
         log.info("Starting new chat with prompt: {}", prompt);
+        try {
         // create a request
-        ChatRequest request = new ChatRequest(model, prompt);
+        ObjectMapper objectMapper = new ObjectMapper();
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        String body = objectMapper.writeValueAsString(new ChatRequest(model, prompt));
+        HttpEntity<String> request = new HttpEntity<>(body, headers);
         log.info("Created a new request: {}", request);
         // call the API
         ChatResponse response = restTemplate.postForObject(apiUrl, request, ChatResponse.class);
@@ -58,6 +66,10 @@ public class ChatController {
         // return the first response
         log.info("The OpenAI API returned the following: {}", response.toString());
         return response;
+        }catch (Exception e){
+            log.error("Error: {}", e.getMessage());
+            return null;
+        }
     }
 
     @PostMapping(value = "/feedback", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_XML_VALUE)

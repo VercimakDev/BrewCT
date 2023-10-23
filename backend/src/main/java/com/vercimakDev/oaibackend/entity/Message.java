@@ -32,9 +32,9 @@ public class Message {
 
     @Override
     public String toString() {
-        return "Message{" +
-                "role='" + role + '\'' +
-                ", content='" + content + '\'' +
+        return "{" +
+                "\"role\":\"" + role + "\"" +
+                ", \"content\":\"" + content + "\"" +
                 '}';
     }
 }
