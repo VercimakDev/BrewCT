@@ -36,7 +36,7 @@ to be added
 * Upload a Prompt-File
 * Execute prompts & get GPTs Response
 * Send Feedback
-* ![Feature-Demo][demo]
+![Feature-Demo][demo]
 
 ### Built With
 
