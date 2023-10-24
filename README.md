@@ -36,6 +36,7 @@ to be added
 * Upload a Prompt-File
 * Execute prompts & get GPTs Response
 * Send Feedback
+* ![Feature-Demo][demo]
 
 ### Built With
 
@@ -48,3 +49,4 @@ to be added
 [Angular-url]: https://angular.io/
 [Spring.io]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
 [Spring-url]: https://spring.io/
+[demo]: https://github.com/VercimakDev/ba-application/blob/main/img_for_readme/ba_project_features.gif
