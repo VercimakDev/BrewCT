@@ -33,13 +33,18 @@ to be added
 to be added
 
 ## Features
+* Upload a Prompt-File
+* Execute prompts & get GPTs Response
+* Send Feedback
 
 ### Built With
 
 * [![Angular][Angular.io]][Angular-url]
+* [![Spring][Spring.io]][Spring-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
- 
+[Spring.io]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
+[Spring-url]: https://spring.io/
