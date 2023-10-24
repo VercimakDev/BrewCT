@@ -42,12 +42,21 @@ export class PromptInputComponent {
       this.executed = true;
     });
   }
+
+  // send a POST Request to the feeback endpoint, the body containing the current prompt, responserating, and responsefeedback
+  sendFeedback() {
+    const body = {prompt: this.prompts[this.currentPromptIndex], responseText: this.responseContent, rating: this.responseRating, feedback: this.responseFeedback};
+    this.http.post<any>('http://localhost:8080/api/v1/feedback', body).subscribe(response => {
+    });
+  }
   nextPrompt() {
+    this.sendFeedback()
     // Move to the next prompt
     if (this.currentPromptIndex < this.prompts.length - 1) {
       this.currentPromptIndex++;
       this.updateUserInput();
     }
+
   }
 
   updateUserInput() {
@@ -60,6 +69,7 @@ export class PromptInputComponent {
     }
 
   navigateToUpload() {
+    this.sendFeedback();
     this.router.navigate(['/uploader']);
   }
 }
