@@ -22,6 +22,7 @@ html, body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   background-color: #ffffff; /* Card background color */
   overflow-y: auto; /* Allow vertical scrolling */
+  margin-top: 20px; /* Add some space between the card and the container */
 }
 
 /* Style the form fields */
