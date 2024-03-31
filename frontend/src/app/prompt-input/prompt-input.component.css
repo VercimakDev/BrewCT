@@ -1,10 +1,16 @@
+html, body {
+  min-height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 /* Center the container on the page */
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   background-color: #f0f0f0; /* Background color of the container */
+  align-items: flex-start;
 }
 
 /* Style the card */
@@ -15,6 +21,7 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   background-color: #ffffff; /* Card background color */
+  overflow-y: auto; /* Allow vertical scrolling */
 }
 
 /* Style the form fields */
@@ -41,6 +48,14 @@
 .full-width {
   width: 100%;
   margin: 0 auto; /* Center the text fields within the card */
+}
+
+.full-width textarea {
+  min-height: 200px !important;
+  width: 100%; /* Set the width to 100% of its parent container */
+  margin: 0 auto; /* Center the text fields within the card */
+  overflow-y: auto; /* Enable vertical scrolling */
+  resize: none; /* Disable resizing if you want to keep the fixed size */
 }
 
 /* Align the "Send" button to the left and "Next" button to the right */

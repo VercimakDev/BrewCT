@@ -43,7 +43,7 @@ export class PromptInputComponent {
     });
   }
 
-  // send a POST Request to the feeback endpoint, the body containing the current prompt, responserating, and responsefeedback
+  // send a POST Request to the feedback endpoint, the body containing the current prompt, responserating, and responsefeedback
   sendFeedback() {
     const body = {prompt: this.prompts[this.currentPromptIndex], responseText: this.responseContent, rating: this.responseRating, feedback: this.responseFeedback};
     this.http.post<any>('http://localhost:8080/api/v1/feedback', body).subscribe(response => {
