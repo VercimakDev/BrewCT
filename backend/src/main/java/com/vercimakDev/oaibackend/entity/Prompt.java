@@ -1,7 +1,11 @@
 package com.vercimakDev.oaibackend.entity;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
 public class Prompt {
+    @JacksonXmlProperty(isAttribute = true, localName = "id")
     private String id;
+    @JacksonXmlProperty(localName = "value")
     private String text;
 
     public Prompt(String id, String text) {

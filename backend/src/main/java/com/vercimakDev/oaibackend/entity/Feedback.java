@@ -45,4 +45,14 @@ public class Feedback {
     public void setFeedback(String feedback) {
         this.feedback = feedback;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "\"prompt\":\"" + prompt + "\"" +
+                ", \"responseText\":\"" + responseText + "\"" +
+                ", \"rating\":\"" + rating + "\"" +
+                ", \"feedback\":\"" + feedback + "\"" +
+                '}';
+    }
 }
