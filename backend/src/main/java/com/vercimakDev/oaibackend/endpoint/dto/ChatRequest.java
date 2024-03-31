@@ -1,5 +1,6 @@
 package com.vercimakDev.oaibackend.endpoint.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.vercimakDev.oaibackend.entity.Message;
 import org.springframework.http.HttpEntity;
 
@@ -13,11 +14,16 @@ public class ChatRequest {
     private int n;
     private double temperature;
 
+    @JsonProperty("max_tokens")
+    private int maxTokens;
+
     public ChatRequest(String model, String prompt) {
         this.model = model;
         this.n = 1;
+        this.temperature = 0.6;
         this.messages = new ArrayList<>();
         this.messages.add(new Message("user", prompt));
+        this.maxTokens = 600;
     }
 
     public String getModel() {
@@ -52,6 +58,14 @@ public class ChatRequest {
         this.temperature = temperature;
     }
 
+    public int getMaxTokens() {
+        return maxTokens;
+    }
+
+    public void setMaxTokens(int maxTokens) {
+        this.maxTokens = maxTokens;
+    }
+
     // convert the object to a json HttpEntity<String>
     public HttpEntity<String> toHttpEntity() {
         return new HttpEntity<>(this.toString());
@@ -61,8 +75,9 @@ public class ChatRequest {
         return "{" +
                 "\"model\":\"" + model + '\"' +
                 ", \"messages\":" + messages +
-                ", \"n\":\"" + n +"\""+
-                ", \"temperature\":\"" + temperature +"\""+
+                ", \"n\":" + n + // Removed the quotes as n is an integer
+                ", \"temperature\":" + temperature + // Removed the quotes as temperature is a double
+                ", \"max_tokens\":" + maxTokens + // Add the max_tokens parameter
                 '}';
     }
 }

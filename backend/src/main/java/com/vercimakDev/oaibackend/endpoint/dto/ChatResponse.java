@@ -11,7 +11,7 @@ public class ChatResponse {
         // Default constructor
     }
 
-    public ChatResponse(List<Choice> choices) {
+    public ChatResponse(List<Choice> choices) { // Modify constructor
         this.choices = choices;
     }
 
@@ -52,5 +52,12 @@ public class ChatResponse {
         public void setMessage(Message message) {
             this.message = message;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "\"choices\":" + choices +
+                '}';
     }
 }

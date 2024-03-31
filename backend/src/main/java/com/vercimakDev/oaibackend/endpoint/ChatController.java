@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vercimakDev.oaibackend.endpoint.dto.ChatRequest;
 import com.vercimakDev.oaibackend.endpoint.dto.ChatResponse;
+import com.vercimakDev.oaibackend.endpoint.dto.CustomFeedbackXml;
 import com.vercimakDev.oaibackend.entity.Feedback;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -44,29 +47,33 @@ public class ChatController {
     @Value("${openai.api.url}")
     private String apiUrl;
 
+    @Autowired
+    private ObjectMapper objectMapper;
     @GetMapping("/chat")
     public ChatResponse chat(@RequestParam String prompt) {
         log.info("Starting new chat with prompt: {}", prompt);
         try {
-        // create a request
-        ObjectMapper objectMapper = new ObjectMapper();
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_JSON);
-        String body = objectMapper.writeValueAsString(new ChatRequest(model, prompt));
-        HttpEntity<String> request = new HttpEntity<>(body, headers);
-        log.info("Created a new request: {}", request);
-        // call the API
-        ChatResponse response = restTemplate.postForObject(apiUrl, request, ChatResponse.class);
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_JSON);
+            // Now specifying maxTokens when creating ChatRequest
+            ChatRequest chatRequest = new ChatRequest(model, prompt);
 
-        if (response == null || response.getChoices() == null || response.getChoices().isEmpty()) {
-            log.error("Error: No Response");
-            return null;
-        }
+            String body = objectMapper.writeValueAsString(chatRequest);
+            log.info("Request body: {}", body);
+            HttpEntity<String> request = new HttpEntity<>(body, headers);
+            log.info("Created a new request: {}", request);
 
-        // return the first response
-        log.info("The OpenAI API returned the following: {}", response.toString());
-        return response;
-        }catch (Exception e){
+            // Use exchange method to get access to response headers
+            ResponseEntity<ChatResponse> responseEntity = restTemplate.exchange(apiUrl, HttpMethod.POST, request, ChatResponse.class);
+
+            if (responseEntity.getBody() == null || responseEntity.getBody().getChoices() == null || responseEntity.getBody().getChoices().isEmpty()) {
+                log.error("Error: No Response");
+                return null;
+            }
+            // Log the response
+            log.info("The OpenAI API returned the following: {}", responseEntity.getBody().toString());
+            return responseEntity.getBody();
+        } catch (Exception e) {
             log.error("Error: {}", e.getMessage());
             return null;
         }
@@ -75,24 +82,30 @@ public class ChatController {
     @PostMapping(value = "/feedback", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_XML_VALUE)
     public String createFeedbackXml(@RequestBody Feedback feedback) {
         try {
+            log.info("This is the prompt: {}", feedback.getPrompt());
+            log.info("This is the feedback: {}", feedback.toString());
+            CustomFeedbackXml customFeedbackXml = new CustomFeedbackXml();
+            // Populate the customFeedbackXml object from the feedback object
+            customFeedbackXml.setTimestamp(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+            customFeedbackXml.setPrompt(feedback.getPrompt());
+            customFeedbackXml.setResponseText(feedback.getResponseText());
+            customFeedbackXml.setFeedbackRating(feedback.getRating());
+            customFeedbackXml.setFeedbackText(feedback.getFeedback());
+
             // Create an XmlMapper
             XmlMapper xmlMapper = new XmlMapper();
+            // Serialize the CustomFeedbackXml object to XML
+            String xml = xmlMapper.writeValueAsString(customFeedbackXml);
 
-            // Convert the Feedback object to XML
-            String xml = xmlMapper.writeValueAsString(feedback);
             Files.createDirectories(Path.of("output"));
-
-            // Generate a unique file name (you can adjust the naming logic)
             String fileName = "feedback_" + System.currentTimeMillis() + ".xml";
-            // Add the current date, time, and Git commit hash to the XML
-            xml = addMetadataToXml(xml);
             Path outputPath = Path.of("output", fileName);
             Files.write(outputPath, xml.getBytes(), StandardOpenOption.CREATE);
             return "XML file saved to: " + outputPath.toString();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
             return "Error converting to XML";
-        }catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
             return "Error saving XML file";
         }
