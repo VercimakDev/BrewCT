@@ -1,0 +1,70 @@
+<feedback>
+    <timestamp>2024-03-23 00:54:30</timestamp>
+    <prompt id="1">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is to
+        mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+        meticulous attention to detail, outlining each step of the process clearly. Assume that the environment contains
+        only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+        scenario. Here is the description of the house, containing all the necessary information for your task: After
+        entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer containing a
+        portafilter there. To the right side of the foyer you can find a living room that is filled with natural light.
+        There you can find a plush sofa, a designer coffee table, a fireplace, a large TV and some artworks mounted on
+        the walls. Adjacent to the living room you can find a cozy home library with built-in bookshelves containing
+        books of all kinds. There is a table in the corner of the room, on top of it is a jar filled with coffee beans.
+        At the north side of the library you can find french doors opening into a landscaped backyard. To the left side
+        of the foyer you will find a modern dining room with a long mahogany table right in the middle of it, surrounded
+        by 8 chairs. I am sitting in one of those chairs with an empty cup in my right hand. Further down the dining room
+        you can find the heart of the home - a spacious open-concept kitchen filled with stainless steel appliances,
+        granite countertops and a cooking island in the middle. One of the countertops features a sink dispensing
+        drinkable water. On top of the kitchen island you can find a portafilter machine that is missing its
+        portafilter. The foyer also features a staircase. Upstairs you can find the private quarters. There you can find
+        two bathrooms, a master suite and a guest suite. The master suite offers a generous bedroom with a king-size
+        bed, a walk-in closet and a private balcony overlooking the backyard. The closet is packed with three drawers.
+        The left one contains an unplugged coffee grinder. There are several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        To prepare a cup of coffee for you, I will first head to the foyer and open the drawer where the
+    portafilter is located. I will then grab the portafilter and head to the kitchen. I will place the portafilter in
+    the portafilter machine on the kitchen island.
+
+    Next, I will head to the corner of the home library where the jar filled with coffee beans is placed. I will scoop
+    out the desired amount of coffee beans and grind them using the unplugged coffee grinder from the master suite
+    closet.
+
+    After grinding the coffee beans, I will place them into the portafilter in the machine. I will then turn on the
+    machine and let it brew the coffee. While the coffee is brewing, I will head to the dining room where you are
+    sitting with an empty cup in your hand.
+
+    I will pour the freshly brewed coffee into your cup and serve it to you. I will ensure that the coffee is prepared
+    to your liking and that you are satisfied with the drink. I will also clean up any mess and put away any unused
+    items before leaving the house.
+
+    I hope you enjoy your coffee!
+    </responseText>
+    <feedbackRating>5</feedbackRating>
+    <feedbackText>
+        'To prepare a cup of coffee for you, I will first head to the foyer and open the drawer where the portafilter
+    is located.' OK
+    'I will then grab the portafilter and head to the kitchen.' How do you get there? You first have to go left in the
+    foyer and cross the dining room.
+    ' I will place the portafilter in the portafilter machine on the kitchen island.' OK, but portarfilter is empty?
+    'Next, I will head to the corner of the home library where the jar filled with coffee beans is placed.' again no
+    description how you went there.
+    'I will scoop out the desired amount of coffee beans and grind them using the unplugged coffee grinder from the
+    master suite closet.' How did you get to the master suite? How do you use the grinder without any power?
+    'After grinding the coffee beans, I will place them into the portafilter in the machine.' you would have to first
+    take out the portafilter
+    'I will then turn on the machine and let it brew the coffee' Where does the coffee go if there is no cup under the
+    portafilter?
+    'While the coffee is brewing, I will head to the dining room where you are sitting with an empty cup in your hand.'
+    too late the coffee already spilled.
+    'I will pour the freshly brewed coffee into your cup and serve it to you.' where do you pour if from?
+    'I will ensure that the coffee is prepared to your liking and that you are satisfied with the drink. I will also
+    clean up any mess and put away any unused items before leaving the house. I hope you enjoy your coffee!' cleaning
+    was not part of it so no need to explain, therefore OK
+
+    Some critical errors made, coffee would not make it to me.
+    </feedbackText>
+</feedback>

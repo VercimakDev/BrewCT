@@ -1,0 +1,93 @@
+<feedback>
+    <timestamp>2024-03-23 02:14:25</timestamp>
+    <prompt id="6">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is
+            to
+            mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+            meticulous attention to detail, outlining each step of the process clearly. Assume that the environment
+            contains
+            only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+            scenario. Here is the description of the house, containing all the necessary information for your task:
+            After
+            entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer
+            containing a
+            jar filled with coffee beans. The drawer can only be unlocked using a 4-digit passcode. To the right side of
+            the foyer you can find a living room that is filled with natural light. There you can find a plush sofa, a
+            designer coffee table, a fireplace, a large TV and some artworks mounted on the walls. On top of the
+            fireplace
+            you can find an empty cup. Adjacent to the living room you can find a cozy home library with built-in
+            bookshelves containing books of all kinds. Between two of the books, you can find a key. There is a table in
+            the
+            corner of the room, on top of it is a portafilter machine that is missing its portafilter. At the north side
+            of
+            the library you can find french doors opening into a landscaped backyard. To the left side of the foyer you
+            will
+            find a modern dining room with a long mahogany table right in the middle of it, surrounded by 8 chairs. I am
+            sitting in one of those chairs holding a phone charger in my right hand. Further down the dining room you
+            can find
+            the heart of the home - a spacious open-concept kitchen filled with stainless steel appliances, granite
+            countertops and a cooking island in the middle. One of the countertops features a sink dispensing water that
+            is
+            not drinkable. On top of the kitchen island you can find a bottle of drinkable water. Next to it, you can
+            find a
+            giant fridge with lots of sticky notes on its surface. One of them read: “The code is 3067”. The foyer also
+            features a staircase. Upstairs you can find the private quarters. There you can find two bathrooms, a master
+            suite and a guest suite. Inside the bathroom to your left-hand side, you can find a toothbrush that looks
+            like
+            it has been used. It is placed on top of the bathroom sink. Next to it an unplugged coffee grinder is
+            placed.
+            The master suite offers a generous bedroom with a king-size bed, a walk-in closet and a private balcony
+            overlooking the backyard. The closet is packed with three drawers. The middle one contains a dirty
+            portafilter.
+            There are several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        To prepare a cup of coffee for you, I will start by entering the house through the front door and making my way
+        to the foyer. Once there, I will locate the drawer containing the jar filled with coffee beans. To unlock the
+        drawer, I will input the 4-digit passcode, which is 3067, as indicated on the sticky note on the fridge in the
+        kitchen.
+
+        After retrieving the coffee beans, I will head to the living room where I will find the empty cup on top of the
+        fireplace. I will then make my way to the cozy home library and pick up the key hidden between two books. Using
+        this key, I will unlock the portafilter machine on the table in the corner of the room.
+
+        Next, I will head to the kitchen and grab the bottle of drinkable water from the kitchen island. I will fill the
+        portafilter with coffee beans and place it in the portafilter machine. I will then use the sink to fill the cup
+        with water and place it under the portafilter to brew the coffee.
+
+        While the coffee is brewing, I will make my way upstairs to the master suite where I will find the toothbrush on
+        the bathroom sink and the unplugged coffee grinder. I will plug in the coffee grinder and grind some fresh
+        coffee beans to enhance the flavor of the brew.
+
+        Once the coffee is ready, I will pour it into the cup and bring it to you, sitting in the dining room surrounded
+        by the mahogany table and chairs. I will hand you the cup of freshly brewed coffee, prepared with meticulous
+        attention to detail just as you requested.
+    </responseText>
+    <feedbackRating>5</feedbackRating>
+    <feedbackText>
+        'To prepare a cup of coffee for you, I will start by entering the house through the front door and making my way
+        to the foyer. Once there, I will locate the drawer containing the jar filled with coffee beans.' OK
+        'To unlock the drawer, I will input the 4-digit passcode, which is 3067, as indicated on the sticky note on the
+        fridge in the kitchen.' How do you know, you were not there yet?
+        'After retrieving the coffee beans, I will head to the living room where I will find the empty cup on top of the
+        fireplace' OK
+        'I will then make my way to the cozy home library and pick up the key hidden between two books. Using this key,
+        I will unlock the portafilter machine on the table in the corner of the room.' OK but there is nothing to
+        unlock?
+        'Next, I will head to the kitchen and grab the bottle of drinkable water from the kitchen island. I will fill
+        the portafilter with coffee beans and place it in the portafilter machine. I will then use the sink to fill the
+        cup with water and place it under the portafilter to brew the coffee.' Do you use the not drinkable water? Or
+        only using the sink to not spill the water from the bottle? Why do you fill up the cup with water, the water
+        should go into the watertank of the machine
+        'While the coffee is brewing, I will make my way upstairs to the master suite where I will find the toothbrush
+        on the bathroom sink and the unplugged coffee grinder. I will plug in the coffee grinder and grind some fresh
+        coffee beans to enhance the flavor of the brew.' This is too late, you are already brewing the coffee.
+        'Once the coffee is ready, I will pour it into the cup and bring it to you, sitting in the dining room
+        surrounded by the mahogany table and chairs. I will hand you the cup of freshly brewed coffee, prepared with
+        meticulous attention to detail just as you requested.' OK
+
+        Critical errors: beans not grinded, used non drinkable water
+    </feedbackText>
+</feedback>

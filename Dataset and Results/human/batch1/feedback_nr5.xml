@@ -1,0 +1,77 @@
+<feedback>
+    <timestamp>2024-03-24 15:15:05</timestamp>
+    <prompt id="5">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is to
+        mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+        meticulous attention to detail, outlining each step of the process clearly. Assume that the environment contains
+        only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+        scenario. Here is the description of the house, containing all the necessary information for your task: After
+        entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer containing
+        white socks. The drawer can only be unlocked using a key. To the right side of the foyer you can find a living
+        room that is filled with natural light. There you can find a plush sofa, a designer coffee table, a fireplace, a
+        large TV and some artworks mounted on the walls. On top of the fireplace you can find an empty cup. Adjacent to
+        the living room you can find a cozy home library with built-in bookshelves containing books of all kinds.
+        Between two of the books, you can find a jar filled with coffee beans. There is a table in the corner of the
+        room, on top of it is a portafilter machine that is missing its portafilter. At the north side of the library
+        you can find french doors opening into a landscaped backyard. To the left side of the foyer you will find a
+        modern dining room with a long mahogany table right in the middle of it, surrounded by 8 chairs. I am sitting in
+        of those chairs holding a dirty portafilter in my right hand. Further down the dining room you can find the
+        heart of the home - a spacious open-concept kitchen filled with stainless steel appliances, granite countertops
+        and a cooking island in the middle. One of the countertops features a sink dispensing water that is not
+        drinkable. On top of the kitchen island you can find a bottle of drinkable water. The foyer also features a
+        staircase. Upstairs you can find the private quarters. There you can find two bathrooms, a master suite and a
+        guest suite. Inside the bathroom to your left-hand side, you can find a key that looks like it is designed to
+        open a drawer. It is placed on top of the bathroom sink. Next to it an unplugged coffee grinder is placed. The
+        master suite offers a generous bedroom with a king-size bed, a walk-in closet and a private balcony overlooking
+        the backyard. The closet is packed with three drawers. The middle one contains a phone charger. There are
+        several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        First I would turn left in the foyer and approach you. Then I would take the dirty portafilter
+    from you and go next door to the kitchen where there is a sink. I would wash the filter there and then take the
+    clean filter and the bottle of drinkable water with me. With these two items, I would then walk past the dining room
+    across the foyer to the living room. I would walk past the sofa and the designer sofa table to the fireplace and
+    take the empty cup from there. With all three things (cup, water and clean portafilter) I would then go on to the
+    library to place these three things on the small table in the corner. I would then reach into one of the shelves
+    where there is a jar of coffee beans between two books and take it to the table in the corner. Then I would take the
+    jar of coffee beans and walk with it across the living room past the foyer and up the stairs. Then I would go into
+    the bathroom where the "unplugged coffee grinder" is, next to the sink with a key on it and then take it to the
+    master bedroom and plug it in there. Then I would grind the coffee beans in the machine and take the ground coffee
+    with me now. Then I would go out of the master bedroom, down the stairs, past the foyer, left into the living room
+    and on to the library. Then I can put the ground coffee into the portafilter and the portafilter in the machine,
+    take the empty cup and put it under the spout. Then I pour in the drinkable water inside the water tank and switch
+    the machine on. Once it's done, I take the cup of coffee and walk through the living room and the foyer to the
+    dining room. There you sit on a mahogany table with 8 armchairs and I place the coffee on the table in front of you.
+    </responseText>
+    <feedbackRating>1</feedbackRating>
+    <feedbackText>
+        'First I would turn left in the foyer and approach you. Then I would take the dirty portafilter
+    from you and go next door to the kitchen where there is a sink. I would wash the filter there and then take the
+    clean filter and the bottle of drinkable water with me.' OK, where exactly is the bottle of drinkable water located?
+    'With these two items, I would then walk past the dining room
+    across the foyer to the living room. I would walk past the sofa and the designer sofa table to the fireplace and
+    take the empty cup from there.' OK, good directions
+    'With all three things (cup, water and clean portafilter) I would then go on to the
+    library to place these three things on the small table in the corner.' OK, good choice not to carry all items at
+    once
+    'I would then reach into one of the shelves
+    where there is a jar of coffee beans between two books and take it to the table in the corner. Then I would take the
+    jar of coffee beans and walk with it across the living room past the foyer and up the stairs. Then I would go into
+    the bathroom where the "unplugged coffee grinder" is, next to the sink with a key on it and then take it to the
+    master bedroom and plug it in there. Then I would grind the coffee beans in the machine and take the ground coffee
+    with me now.' OK, good directions
+    'Then I would go out of the master bedroom, down the stairs, past the foyer, left into the living room
+    and on to the library. Then I can put the ground coffee into the portafilter and the portafilter in the machine,
+    take the empty cup and put it under the spout.' OK
+    'Then I pour in the drinkable water inside the water tank and switch
+    the machine on.' OK, nice that you remembered to fill the water tank
+    'Once it's done, I take the cup of coffee and walk through the living room and the foyer to the
+    dining room. There you sit on a mahogany table with 8 armchairs and I place the coffee on the table in front of
+    you.' OK
+
+    No critical errors, just one minor note that you didn't mention where the bottle of drinkable water is located. But
+    you made up for it by not carrying all items at once and providing detailed directions.
+    </feedbackText>
+</feedback>

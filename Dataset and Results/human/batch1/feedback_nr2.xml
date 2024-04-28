@@ -1,0 +1,116 @@
+<feedback>
+    <timestamp>2024-03-23 19:30:11</timestamp>
+    <prompt id="2">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is
+            to
+            mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+            meticulous attention to detail, outlining each step of the process clearly. Assume that the environment
+            contains
+            only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+            scenario. Here is the description of the house, containing all the necessary information for your task:
+            After
+            entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer
+            containing a
+            jar filled with coffee beans. To the right side of the foyer you can find a living room that is filled with
+            natural light. There you can find a plush sofa, a designer coffee table, a fireplace, a large TV and some
+            artworks mounted on the walls. Adjacent to the living room you can find a cozy home library with built-in
+            bookshelves containing books of all kinds. There is a table in the corner of the room, on top of it is an
+            empty
+            cup. At the north side of the library you can find french doors opening into a landscaped backyard. To the
+            left
+            side of the foyer you will find a modern dining room with a long mahogany table right in the middle of it,
+            surrounded by 8 chairs. I am sitting in one of those chairs with an unplugged coffee grinder in front of me.
+            Further
+            down the dining room you can find the heart of the home - a spacious open-concept kitchen filled with
+            stainless
+            steel appliances, granite countertops and a cooking island in the middle. One of the countertops features a
+            sink
+            dispensing drinkable water. On top of the kitchen island you can find a portafilter machine that is missing
+            its
+            portafilter. The foyer also features a staircase. Upstairs you can find the private quarters. There you can
+            find
+            two bathrooms, a master suite and a guest suite. The master suite offers a generous bedroom with a king-size
+            bed, a walk-in closet and a private balcony overlooking the backyard. The closet is packed with three
+            drawers.
+            The middle one contains a portafilter. There are several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        I stop to take a look around the foyer. After noticing the drawer, I try to open it and find a jar of
+        coffee beans. I take them with me. I look to my right and notice the living room. I go inside and search the
+        room
+        for something useful. After finding nothing I continue ahead to the next room a library. My eyes look over the
+        room
+        and all the books. I look at the table in the corner and see the cup. I go to the desk to check the cup. Its
+        empty
+        so I take it with me. My hands are full now. I’m continuing ahead and see the French doors with the beautiful
+        view
+        of a landscaped backyard. I stand still for a few seconds to take in the view. I then realize I’m at a dead end
+        and
+        go back to the foyer to continue my search. I see a door to the left of the entrance and go inside. I’m now in
+        the
+        dining room and see the coffee grinder but leave it for now because my hands are full. I pass the dining room
+        and
+        finally find the kitchen which has a sink where I can get water. I place down the coffee beans and the empty cup
+        I
+        found, then head back to get the coffee grinder and plug it into the power-outlet in the kitchen. It works. I
+        take a
+        look around the kitchen and find the portafilter machine, but it seems to be missing the filter. I leave the
+        things
+        in the kitchen and continue my search. I go back
+        to the foyer and go up the stairs. I search all the bedrooms until I land in the master suite where I find a
+        closet.
+        I open the closet and try to open the drawers. Inside the middle one I find the missing portafilter
+        . I now have all the ingredients I need to make coffee. I head back to the kitchen, grind the beans in the
+        coffee
+        grinder, fill the portafilter
+        with the ground coffee and put the filter inside the machine. I put some water from the sink in the machine. I
+        take
+        the cup, wash it and place it under the spout. I then start the machine. The coffee is ready, and I bring the
+        cup to
+        you.
+    </responseText>
+    <feedbackRating>1</feedbackRating>
+    <feedbackText>
+        'I stop to take a look around the foyer. After noticing the drawer, I try to open it and find a jar of
+        coffee beans. I take them with me.' OK
+        'I look to my right and notice the living room. I go inside and search the room for something
+        useful. After finding nothing I continue ahead to the next room a library. My eyes look over the room and all
+        the
+        books. I look at the table in the corner and see the cup. I go to the desk to check the cup. Its empty so I take
+        it
+        with me.' OK
+        'My hands are full now' OK, very good observation
+        'I’m continuing ahead and see the French doors with the beautiful view of a
+        landscaped backyard. I stand still for a few seconds to take in the view. I then realize I’m at a dead end and
+        go
+        back to the foyer to continue my search.' OK
+        'I see a door to the left of the entrance and go inside. I’m now in the
+        dining room and see the coffee grinder but leave it for now because my hands are full.' OK this observation is
+        very
+        advanced, good critical thinking that you can't carry everything at once
+        'I pass the dining room and
+        finally find the kitchen which has a sink where I can get water. I place down the coffee beans and the empty cup
+        I
+        found, then head back to get the coffee grinder and plug it into the power-outlet in the kitchen. It works.' OK,
+        great job checking if the coffee grinder works
+        'I take a
+        look around the kitchen and find the portafilter machine, but it seems to be missing the filter. I leave the
+        things
+        in the kitchen and continue my search. I go back
+        to the foyer and go up the stairs. I search all the bedrooms until I land in the master suite where I find a
+        closet.
+        I open the closet and try to open the drawers. Inside the middle one I find the missing portafilter.' OK
+        'I now have all the ingredients I need to make coffee. I head back to the kitchen, grind the beans in the coffee
+        grinder, fill the portafilter
+        with the ground coffee and put the filter inside the machine. I put some water from the sink in the machine.' OK
+        'I take
+        the cup, wash it and place it under the spout. I then start the machine. The coffee is ready, and I bring the
+        cup to
+        you.' OK
+
+        No critical errors, also some extra observations that show good common sense, like the fact that you can't carry
+        everything at once.
+    </feedbackText>
+</feedback>

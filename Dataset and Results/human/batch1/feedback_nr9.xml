@@ -1,0 +1,88 @@
+<feedback>
+    <timestamp>2024-03-24 19:20:05</timestamp>
+    <prompt id="9">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is to
+        mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+        meticulous attention to detail, outlining each step of the process clearly. Assume that the environment contains
+        only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+        scenario. Here is the description of the house, containing all the necessary information for your task: After
+        entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer containing an
+        empty cup. The drawer can only be unlocked using a 4-digit passcode. To the right side of the foyer you can
+        find a living room that is filled with natural light. There you can find a plush sofa, a designer coffee table,
+        a fireplace, a large TV and some artworks mounted on the walls. One of the artworks contains some text: “The
+        code is not here”. On top of the fireplace you can find a portafilter machine that is missing its portafilter.
+        Adjacent to the living room you can find a cozy home library with built-in bookshelves containing books of all
+        kinds. Between two of the books, you can find a key. There is a table in the corner of the room, on top of it is
+        an unplugged coffee grinder. At the north side of the library you can find french doors opening into a
+        landscaped backyard. To the left side of the foyer you will find a modern dining room with a long mahogany table
+        right in the middle of it, surrounded by 8 chairs. I am sitting in of one those chairs holding a phone charger
+        in my
+        right hand. Further down the dining room you can find the heart of the home - a spacious open-concept kitchen
+        filled with stainless steel appliances, granite countertops and a cooking island in the middle. One of the
+        countertops features a sink dispensing water that is not drinkable. On top of the kitchen island you can find a
+        jar filled with coffee beans. Next to it, you can find a giant fridge with lots of sticky notes on its surface.
+        One of them read: “Please do not forget that the code was changed to 4150”. The foyer also features a staircase.
+        Upstairs you can find the private quarters. There you can find two bathrooms, a master suite and a guest suite.
+        Inside the bathroom to your left-hand side, you can find a toothbrush that looks like it has been used. It is
+        placed on top of the bathroom sink. Next to it a portafilter is placed. The master suite offers a generous
+        bedroom with a king-size bed, a walk-in closet and a private balcony overlooking the backyard. The closet is
+        packed with three drawers. The middle one contains a bottle of drinkable water. There are several power-outlets
+        in each room.
+        </value>
+    </prompt>
+    <responseText>
+        At first, I enter the foyer of the house through the front door. Then I go to the right until I reach the
+    home library. In the library I grab the unplugged coffee grinder. With the coffee grinder I go back to the foyer and
+    place it on the locked drawer. Then I go to the dining room / open kitchen. I grab the jar of coffee beans which is
+    located on top of the kitchen island and take it back with me to the foyer. Now I grab both items (the coffee
+    grinder and the jar of coffee beans) and make my way up-stairs by taking the staircase (which is also located in the
+    foyer). Upstairs I enter the bathroom that is located to my left-hand side. In the bathroom I place the coffee
+    grinder on the ground and plug it in an outlet. I take the portafilter that is located in the same bathroom and
+    place it under the coffee grinder. I open the jar of coffee beans and put a handful of beans in the grinder. I grind
+    the beans directly into the portafilter. I take the portafilter full of ground coffee and take it with me to the
+    master suite (I am leaving the jar of coffee beans behind). Arriving in the master suite I enter the walk-in closet
+    and open the middle drawer. Inside, there is bottle of drinking water which I take with me downstairs (to the
+    foyer). Arriving in the foyer I unlock the drawer by entering the 4-digit passcode, which is "4150". I take the cup
+    that was located in the drawer and take it with me to the room containing the portafilter machine (which is the room
+    that is located between the foyer and the library). I turn to the portafilter machine on top of the fireplace and
+    put the drinking water from the bottle inside. I put the portafilter with the ground coffee in the designated spot
+    on the portafilter machine and place the cup right under it. Then I start the portafilter machine (assuming it has
+    power) and wait until the coffee is ready. When the cup is full I leave the room I am currently in and go to the
+    left of the foyer which is the kitchen/dining-room. There I find you sitting in one of the chairs and I hand you the
+    cup of coffee I just made.
+    </responseText>
+    <feedbackRating>1</feedbackRating>
+    <feedbackText>
+        'At first, I enter the foyer of the house through the front door. Then I go to the right until I reach the
+    home library. In the library I grab the unplugged coffee grinder. With the coffee grinder I go back to the foyer and
+    place it on the locked drawer.' OK
+    'Then I go to the dining room / open kitchen. I grab the jar of coffee beans which is
+    located on top of the kitchen island and take it back with me to the foyer. Now I grab both items (the coffee
+    grinder and the jar of coffee beans) and make my way up-stairs by taking the staircase (which is also located in the
+    foyer). Upstairs I enter the bathroom that is located to my left-hand side. In the bathroom I place the coffee
+    grinder on the ground and plug it in an outlet.' OK, not sure why you plug in the coffee grinder in the bathroom
+    'I take the portafilter that is located in the same bathroom and
+    place it under the coffee grinder. I open the jar of coffee beans and put a handful of beans in the grinder. I grind
+    the beans directly into the portafilter.' OK, assumption that the grinder can grind directly into the portafilter is
+    ok, there are grinders that can do that
+    'I take the portafilter full of ground coffee and take it with me to the
+    master suite (I am leaving the jar of coffee beans behind). Arriving in the master suite I enter the walk-in closet
+    and open the middle drawer. Inside, there is bottle of drinking water which I take with me downstairs (to the
+    foyer).' OK
+    'Arriving in the foyer I unlock the drawer by entering the 4-digit passcode, which is "4150".' OK, where did you get
+    this information from?
+    'I take the cup that was located in the drawer and take it with me to the room containing the portafilter machine
+    (which is the room that is located between the foyer and the library).' OK
+    'I turn to the portafilter machine on top of the fireplace and
+    put the drinking water from the bottle inside. I put the portafilter with the ground coffee in the designated spot
+    on the portafilter machine and place the cup right under it. Then I start the portafilter machine (assuming it has
+    power) and wait until the coffee is ready.' OK, assumption that the machine has power is ok
+    'When the cup is full I leave the room I am currently in and go to the
+    left of the foyer which is the kitchen/dining-room. There I find you sitting in one of the chairs and I hand you the
+    cup of coffee I just made.' OK
+
+    No critical errors, the only thing you did not explain is where you got the information about the 4-digit passcode,
+    but your directions were very detailed, so you made up for it.
+    </feedbackText>
+</feedback>

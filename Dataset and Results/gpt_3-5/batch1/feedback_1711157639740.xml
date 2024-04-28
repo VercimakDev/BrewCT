@@ -1,0 +1,91 @@
+<feedback>
+    <timestamp>2024-03-23 02:33:59</timestamp>
+    <prompt id="9">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is
+            to
+            mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+            meticulous attention to detail, outlining each step of the process clearly. Assume that the environment
+            contains
+            only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+            scenario. Here is the description of the house, containing all the necessary information for your task:
+            After
+            entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer
+            containing an
+            empty cup. The drawer can only be unlocked using a 4-digit passcode. To the right side of the foyer you can
+            find a living room that is filled with natural light. There you can find a plush sofa, a designer coffee
+            table,
+            a fireplace, a large TV and some artworks mounted on the walls. One of the artworks contains some text: “The
+            code is not here”. On top of the fireplace you can find a portafilter machine that is missing its
+            portafilter.
+            Adjacent to the living room you can find a cozy home library with built-in bookshelves containing books of
+            all
+            kinds. Between two of the books, you can find a key. There is a table in the corner of the room, on top of
+            it is
+            an unplugged coffee grinder. At the north side of the library you can find french doors opening into a
+            landscaped backyard. To the left side of the foyer you will find a modern dining room with a long mahogany
+            table
+            right in the middle of it, surrounded by 8 chairs. I am sitting in of one those chairs holding a phone
+            charger in my
+            right hand. Further down the dining room you can find the heart of the home - a spacious open-concept
+            kitchen
+            filled with stainless steel appliances, granite countertops and a cooking island in the middle. One of the
+            countertops features a sink dispensing water that is not drinkable. On top of the kitchen island you can
+            find a
+            jar filled with coffee beans. Next to it, you can find a giant fridge with lots of sticky notes on its
+            surface.
+            One of them read: “Please do not forget that the code was changed to 4150”. The foyer also features a
+            staircase.
+            Upstairs you can find the private quarters. There you can find two bathrooms, a master suite and a guest
+            suite.
+            Inside the bathroom to your left-hand side, you can find a toothbrush that looks like it has been used. It
+            is
+            placed on top of the bathroom sink. Next to it a portafilter is placed. The master suite offers a generous
+            bedroom with a king-size bed, a walk-in closet and a private balcony overlooking the backyard. The closet is
+            packed with three drawers. The middle one contains a bottle of drinkable water. There are several
+            power-outlets
+            in each room.
+        </value>
+    </prompt>
+    <responseText>
+        To prepare a cup of coffee for you, I will need to follow these steps:
+
+        1. Enter the house through the front door and make your way to the foyer.
+        2. Locate the drawer in the foyer that contains an empty cup.
+        3. Unlock the drawer by entering the passcode "4150" as indicated on the sticky note on the fridge.
+        4. Take the cup and proceed to the living room.
+        5. In the living room, find the portafilter machine on top of the fireplace.
+        6. Locate the missing portafilter, which is placed next to the toothbrush in the bathroom upstairs.
+        7. Return to the living room with the portafilter and insert it into the machine.
+        8. Move to the kitchen and find the jar filled with coffee beans on the kitchen island.
+        9. Grind the coffee beans using the unplugged coffee grinder on the table in the library.
+        10. Brew the coffee using the portafilter machine in the living room.
+        11. Serve the freshly brewed coffee in the cup you found in the foyer.
+        12. Present the coffee to you, who is sitting in the dining room holding a phone charger.
+
+        By following these steps with precision and attention to detail, I will successfully prepare a cup of coffee for
+        you in the described house.
+    </responseText>
+    <feedbackRating>5</feedbackRating>
+    <feedbackText>
+        1. Enter the house through the front door and make your way to the foyer. OK
+        2. Locate the drawer in the foyer that contains an empty cup. OK
+        3. Unlock the drawer by entering the passcode "4150" as indicated on the sticky note on the fridge. OK but how
+        do you know if you did not enter the kitchen?
+        4. Take the cup and proceed to the living room. OK but directions?
+        5. In the living room, find the portafilter machine on top of the fireplace. OK
+        6. Locate the missing portafilter, which is placed next to the toothbrush in the bathroom upstairs. OK
+        7. Return to the living room with the portafilter and insert it into the machine. OK but it is empty
+        8. Move to the kitchen and find the jar filled with coffee beans on the kitchen island. OK
+        9. Grind the coffee beans using the unplugged coffee grinder on the table in the library. How if it is
+        unplugged?
+        10. Brew the coffee using the portafilter machine in the living room. With an empty portafilter..
+        11. Serve the freshly brewed coffee in the cup you found in the foyer. OK
+        12. Present the coffee to you, who is sitting in the dining room holding a phone charger.
+
+        By following these steps with precision and attention to detail, I will successfully prepare a cup of coffee for
+        you in the described house. OK
+
+        Critical Error: no ground coffee in portafilter
+    </feedbackText>
+</feedback>

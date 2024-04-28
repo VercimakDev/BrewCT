@@ -1,0 +1,105 @@
+<feedback>
+    <timestamp>2024-03-23 23:09:40</timestamp>
+    <prompt id="5">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is
+            to
+            mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+            meticulous attention to detail, outlining each step of the process clearly. Assume that the environment
+            contains
+            only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+            scenario. Here is the description of the house, containing all the necessary information for your task:
+            After
+            entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer
+            containing
+            white socks. The drawer can only be unlocked using a key. To the right side of the foyer you can find a
+            living
+            room that is filled with natural light. There you can find a plush sofa, a designer coffee table, a
+            fireplace, a
+            large TV and some artworks mounted on the walls. On top of the fireplace you can find an empty cup. Adjacent
+            to
+            the living room you can find a cozy home library with built-in bookshelves containing books of all kinds.
+            Between two of the books, you can find a jar filled with coffee beans. There is a table in the corner of the
+            room, on top of it is a portafilter machine that is missing its portafilter. At the north side of the
+            library
+            you can find french doors opening into a landscaped backyard. To the left side of the foyer you will find a
+            modern dining room with a long mahogany table right in the middle of it, surrounded by 8 chairs. I am
+            sitting in
+            of those chairs holding a dirty portafilter in my right hand. Further down the dining room you can find the
+            heart of the home - a spacious open-concept kitchen filled with stainless steel appliances, granite
+            countertops
+            and a cooking island in the middle. One of the countertops features a sink dispensing water that is not
+            drinkable. On top of the kitchen island you can find a bottle of drinkable water. The foyer also features a
+            staircase. Upstairs you can find the private quarters. There you can find two bathrooms, a master suite and
+            a
+            guest suite. Inside the bathroom to your left-hand side, you can find a key that looks like it is designed
+            to
+            open a drawer. It is placed on top of the bathroom sink. Next to it an unplugged coffee grinder is placed.
+            The
+            master suite offers a generous bedroom with a king-size bed, a walk-in closet and a private balcony
+            overlooking
+            the backyard. The closet is packed with three drawers. The middle one contains a phone charger. There are
+            several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        1. Begin by heading directly upstairs to the bathroom on the left-hand side to retrieve the key from the top of
+        the bathroom sink.
+        2. While in the bathroom, take the unplugged coffee grinder next to the key.
+        3. Return downstairs to the foyer and use the retrieved key to unlock the drawer containing the white socks.
+        4. Head into the modern dining room where you are sitting with the dirty portafilter in your hand.
+        5. Politely ask for the dirty portafilter, indicating that it's required for making coffee.
+        6. Proceed to the open-concept kitchen with the portafilter. Rinse it thoroughly under the tap over the sink to
+        clean it, even though the water is not drinkable, the cleaning doesn't require potable water.
+        7. Now, find a cloth or a piece of kitchen towel to dry the portafilter completely.
+        8. Move to the kitchen island and take the bottle of drinkable water.
+        9. Go to the home library and fill the coffee machine's reservoir with the drinkable water from the bottle.
+        10. Plug in the coffee grinder you brought from the bathroom to a power outlet in the library.
+        11. Retrieve the jar filled with coffee beans between two books on the bookshelf.
+        12. Pour an appropriate amount of coffee beans into the grinder and grind them to the right consistency for the
+        portafilter machine.
+        13. Fill the cleaned portafilter with the freshly ground coffee, tamping it down lightly.
+        14. Attach the portafilter to the machine, ensuring it is secure.
+        15. Place the empty cup from atop the fireplace under the portafilter spouts.
+        16. Start the portafilter machine to brew the coffee, letting the hot, freshly made coffee fill the cup.
+        17. Once the brewing process is complete, remove the cup of coffee.
+        18. Serve the freshly made cup of coffee to you, sitting in the dining room, completing the task with attention
+        to detail and ensuring the coffee is served hot and aromatic.
+    </responseText>
+    <feedbackRating>3</feedbackRating>
+    <feedbackText>
+        '1. Begin by heading directly upstairs to the bathroom on the left-hand side to retrieve the key from the top of
+        the bathroom sink.' OK, but not mentioned to enter the home or stating in the foyer, why do you even need the
+        key?
+        '2. While in the bathroom, take the unplugged coffee grinder next to the key.' OK
+        '3. Return downstairs to the foyer and use the retrieved key to unlock the drawer containing the white socks.'
+        OK, but you really do not need them.
+        '4. Head into the modern dining room where you are sitting with the dirty portafilter in your hand.' OK, but no
+        directions given.
+        '5. Politely ask for the dirty portafilter, indicating that it's required for making coffee.' OK, did I give it
+        to you? Did you take it? Nothing mentioned.
+        '6. Proceed to the open-concept kitchen with the portafilter. Rinse it thoroughly under the tap over the sink to
+        clean it, even though the water is not drinkable, the cleaning doesn't require potable water.' OK, you are right
+        about the water.
+        '7. Now, find a cloth or a piece of kitchen towel to dry the portafilter completely.' There is no such thing, as
+        I did not mention it in the description, just let it dry a few minutes?
+        '8. Move to the kitchen island and take the bottle of drinkable water.' OK
+        '9. Go to the home library and fill the coffee machine's reservoir with the drinkable water from the bottle.'
+        OK, directions to library not given, where is the machine exactly?
+        '10. Plug in the coffee grinder you brought from the bathroom to a power outlet in the library.' OK
+        '11. Retrieve the jar filled with coffee beans between two books on the bookshelf.' OK
+        '12. Pour an appropriate amount of coffee beans into the grinder and grind them to the right consistency for the
+        portafilter machine.' OK
+        '13. Fill the cleaned portafilter with the freshly ground coffee, tamping it down lightly.' OK, hope you do not
+        spill in the library.
+        '14. Attach the portafilter to the machine, ensuring it is secure.' OK, where is the machine exactly?
+        '15. Place the empty cup from atop the fireplace under the portafilter spouts.' OK
+        '16. Start the portafilter machine to brew the coffee, letting the hot, freshly made coffee fill the cup.' OK
+        '17. Once the brewing process is complete, remove the cup of coffee.' OK
+        '18. Serve the freshly made cup of coffee to you, sitting in the dining room, completing the task with attention
+        to detail and ensuring the coffee is served hot and aromatic.' OK, direction not given.
+
+        No critical errors but many informations not given, or not detailed enough. Also some useless actions like
+        retrieving the socks from the drawer.
+    </feedbackText>
+</feedback>

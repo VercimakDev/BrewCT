@@ -1,0 +1,91 @@
+<feedback>
+    <timestamp>2024-03-23 21:10:19</timestamp>
+    <prompt id="1">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is to
+        mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+        meticulous attention to detail, outlining each step of the process clearly. Assume that the environment contains
+        only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+        scenario. Here is the description of the house, containing all the necessary information for your task: After
+        entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer containing a
+        portafilter there. To the right side of the foyer you can find a living room that is filled with natural light.
+        There you can find a plush sofa, a designer coffee table, a fireplace, a large TV and some artworks mounted on
+        the walls. Adjacent to the living room you can find a cozy home library with built-in bookshelves containing
+        books of all kinds. There is a table in the corner of the room, on top of it is a jar filled with coffee beans.
+        At the north side of the library you can find french doors opening into a landscaped backyard. To the left side
+        of the foyer you will find a modern dining room with a long mahogany table right in the middle of it, surrounded
+        by 8 chairs. I am sitting in one of those chairs with an empty cup in my right hand. Further down the dining
+        room
+        you can find the heart of the home - a spacious open-concept kitchen filled with stainless steel appliances,
+        granite countertops and a cooking island in the middle. One of the countertops features a sink dispensing
+        drinkable water. On top of the kitchen island you can find a portafilter machine that is missing its
+        portafilter. The foyer also features a staircase. Upstairs you can find the private quarters. There you can find
+        two bathrooms, a master suite and a guest suite. The master suite offers a generous bedroom with a king-size
+        bed, a walk-in closet and a private balcony overlooking the backyard. The closet is packed with three drawers.
+        The left one contains an unplugged coffee grinder. There are several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        Given the detailed description of the house and the task at hand, I will now proceed to prepare a cup of
+    coffee for you. Here are the steps I will take to accomplish this task:
+
+    1. **Retrieve the Portafilter**: Upon entering the foyer, I immediately notice the drawer containing the
+    portafilter. I open the drawer and take the portafilter out.
+
+    2. **Find the Coffee Beans**: I remember seeing a jar filled with coffee beans in the home library. I walk towards
+    the library, locate the jar on the table in the corner, and take it.
+
+    3. **Grind the Coffee Beans**: Knowing that the coffee grinder is in the master suite's walk-in closet, I head
+    upstairs to the private quarters. I find the master suite, enter the walk-in closet, and locate the drawer on the
+    left which contains the unplugged coffee grinder. I take the coffee grinder out and look for a power outlet in the
+    master suite to plug it in. Once plugged in, I pour some coffee beans from the jar into the grinder and grind them
+    to the appropriate coarseness for the portafilter machine.
+
+    4. **Prepare the Portafilter**: After grinding the coffee beans, I ensure the portafilter is clean and then fill it
+    with the freshly ground coffee. I gently tap it on the counter to settle the grounds and then press them down with a
+    tamper (assuming the back of a spoon or any flat surface available if a tamper is not mentioned in the description).
+
+    5. **Brew the Coffee**: With the portafilter ready, I head back downstairs to the kitchen, where the portafilter
+    machine is located on the kitchen island. I insert the prepared portafilter into the machine. I ensure the machine
+    is plugged into one of the power outlets in the kitchen and then turn it on to heat up. Once the machine is ready, I
+    place a cup (assuming the empty cup in your hand is meant for the coffee) under the spout and start the brewing
+    process.
+
+    6. **Serve the Coffee**: After the coffee has been brewed into the cup, I carefully take it from under the spout. I
+    then walk over to where you are sitting in the dining room with an empty cup in your right hand. I gently place the
+    freshly brewed cup of coffee on the table in front of you or hand it directly to you, depending on your preference.
+
+    Throughout this process, I have paid meticulous attention to detail, ensuring that each step is carried out with
+    care to deliver a freshly brewed cup of coffee using the specific elements provided in the house's description.
+    Enjoy your coffee!
+    </responseText>
+    <feedbackRating>3</feedbackRating>
+    <feedbackText>
+        '1. **Retrieve the Portafilter**: Upon entering the foyer, I immediately notice the drawer containing the
+    portafilter. I open the drawer and take the portafilter out.' OK'
+    '2. **Find the Coffee Beans**: I remember seeing a jar filled with coffee beans in the home library. I walk towards
+    the library, locate the jar on the table in the corner, and take it.' OK but navigation missing (left, right, living
+    room?)
+    '3. **Grind the Coffee Beans**: Knowing that the coffee grinder is in the master suite's walk-in closet, I head
+    upstairs to the private quarters. I find the master suite, enter the walk-in closet, and locate the drawer on the
+    left which contains the unplugged coffee grinder. I take the coffee grinder out and look for a power outlet in the
+    master suite to plug it in. Once plugged in, I pour some coffee beans from the jar into the grinder and grind them
+    to the appropriate coarseness for the portafilter machine.' OK
+    '4. **Prepare the Portafilter**: After grinding the coffee beans, I ensure the portafilter is clean and then fill it
+    with the freshly ground coffee. I gently tap it on the counter to settle the grounds and then press them down with a
+    tamper (assuming the back of a spoon or any flat surface available if a tamper is not mentioned in the
+    description).' OK
+    '5. **Brew the Coffee**: With the portafilter ready, I head back downstairs to the kitchen, where the portafilter
+    machine is located on the kitchen island. I insert the prepared portafilter into the machine. I ensure the machine
+    is plugged into one of the power outlets in the kitchen and then turn it on to heat up. Once the machine is ready, I
+    place a cup (assuming the empty cup in your hand is meant for the coffee) under the spout and start the brewing
+    process.' OK but when did you retrieve the cup? Did you check if the portafilter machine had any water in its tank?
+    '6. **Serve the Coffee**: After the coffee has been brewed into the cup, I carefully take it from under the spout. I
+    then walk over to where you are sitting in the dining room with an empty cup in your right hand. I gently place the
+    freshly brewed cup of coffee on the table in front of you or hand it directly to you, depending on your preference.'
+    How am i sitting there with the empty cup if you already took it?
+
+    No critical errors but cup was never retrieved and still in my hand at the end. Also water in the machine tank was
+    not checked.
+    </feedbackText>
+</feedback>

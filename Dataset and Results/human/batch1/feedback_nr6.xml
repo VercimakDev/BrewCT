@@ -1,0 +1,92 @@
+<feedback>
+    <timestamp>2024-03-24 17:12:02</timestamp>
+    <prompt id="6">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is to
+        mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+        meticulous attention to detail, outlining each step of the process clearly. Assume that the environment contains
+        only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+        scenario. Here is the description of the house, containing all the necessary information for your task: After
+        entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer containing a
+        jar filled with coffee beans. The drawer can only be unlocked using a 4-digit passcode. To the right side of
+        the foyer you can find a living room that is filled with natural light. There you can find a plush sofa, a
+        designer coffee table, a fireplace, a large TV and some artworks mounted on the walls. On top of the fireplace
+        you can find an empty cup. Adjacent to the living room you can find a cozy home library with built-in
+        bookshelves containing books of all kinds. Between two of the books, you can find a key. There is a table in the
+        corner of the room, on top of it is a portafilter machine that is missing its portafilter. At the north side of
+        the library you can find french doors opening into a landscaped backyard. To the left side of the foyer you will
+        find a modern dining room with a long mahogany table right in the middle of it, surrounded by 8 chairs. I am
+        sitting in one of those chairs holding a phone charger in my right hand. Further down the dining room you can
+        find
+        the heart of the home - a spacious open-concept kitchen filled with stainless steel appliances, granite
+        countertops and a cooking island in the middle. One of the countertops features a sink dispensing water that is
+        not drinkable. On top of the kitchen island you can find a bottle of drinkable water. Next to it, you can find a
+        giant fridge with lots of sticky notes on its surface. One of them read: “The code is 3067”. The foyer also
+        features a staircase. Upstairs you can find the private quarters. There you can find two bathrooms, a master
+        suite and a guest suite. Inside the bathroom to your left-hand side, you can find a toothbrush that looks like
+        it has been used. It is placed on top of the bathroom sink. Next to it an unplugged coffee grinder is placed.
+        The master suite offers a generous bedroom with a king-size bed, a walk-in closet and a private balcony
+        overlooking the backyard. The closet is packed with three drawers. The middle one contains a dirty portafilter.
+        There are several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        Since I'm standing in front of the house, the first thing I would do is enter the house through the front
+    door and stay in the foyer. Next, I would go to the foyer drawer and enter the four-digit code (3067) to get the jar
+    of beans I need to make coffee. Then I would go to the room on the right side of the foyer and grab the empty coffee
+    cup on top of the fireplace. Next, I would walk from the living room back into the foyer and continue left through
+    the dining room into the kitchen and place the empty cup and coffee beans on the empty kitchen countertop. Next, I
+    would head back to the foyer and walk up the stairs to the private quarters, where I would enter the bathroom on the
+    left to pick up the coffee grinder. Then I would go into the master room to pick up a dirty portafilter
+    from the middle drawer of the closet. Now I would go back down the stairs into the foyer, dining room and then into
+    the kitchen. Here I would first place the coffee grinder on the kitchen worktop and turn on the tap to clean the
+    dirty portafilter
+    with the non-drinkable water. I would then let the portafilter
+    dry and in the meantime plug in the coffee grinder, fill it with the coffee beans I brought with me and grind them.
+    When the portafilter
+    is dry, I would fill it with the coffee powder from the coffee grinder and take it with me along with the empty cup
+    and the drinking bottle with the drinking water. Now I would go with these two objects through the foyer into the
+    living room and further into the home library. There I would place the empty cup under the coffee drain of the
+    machine on the table in the corner (where the coffee machine is located) and insert the filled portafilter
+    into the machine. Next, I would open the water bottle and refill the water if necessary. Now I would turn on the
+    coffee maker and wait until the cup is completely filled. Then I would walk back through the living room and foyer
+    into the dining room with the coffee cup and give it to you in your left hand since the other is already holding
+    something.
+    </responseText>
+    <feedbackRating>1</feedbackRating>
+    <feedbackText>
+        'Since I'm standing in front of the house, the first thing I would do is enter the house through the front
+    door and stay in the foyer. Next, I would go to the foyer drawer and enter the four-digit code (3067) to get the jar
+    of beans I need to make coffee.' OK, how did you know the code was 3067? You didn't mention finding the sticky note
+    'Then I would go to the room on the right side of the foyer and grab the empty coffee
+    cup on top of the fireplace.' OK
+    'Next, I would walk from the living room back into the foyer and continue left through
+    the dining room into the kitchen and place the empty cup and coffee beans on the empty kitchen countertop.' OK, good
+    thinking about not carrying everything around with you, limited things you can carry at once
+    'Next, I would head back to the foyer and walk up the stairs to the private quarters, where I would enter the
+    bathroom on the
+    left to pick up the coffee grinder. Then I would go into the master room to pick up a dirty portafilter
+    from the middle drawer of the closet. Now I would go back down the stairs into the foyer, dining room and then into
+    the kitchen. Here I would first place the coffee grinder on the kitchen worktop and turn on the tap to clean the
+    dirty portafilter with the non-drinkable water.' OK, very detailed directions
+    'I would then let the portafilter dry and in the meantime plug in the coffee grinder, fill it with the coffee beans
+    I brought with me and grind them.' OK
+    'When the portafilter is dry, I would fill it with the coffee powder from the coffee grinder and take it with me
+    along with the empty cup
+    and the drinking bottle with the drinking water.' OK
+    'Now I would go with these two objects through the foyer into the living room and further into the home library.'
+    OK, but actually those are three objects: portafilter, cup and bottle
+    'There I would place the empty cup under the coffee drain of the
+    machine on the table in the corner (where the coffee machine is located) and insert the filled portafilter
+    into the machine. Next, I would open the water bottle and refill the water if necessary.' OK, good job checking the
+    water level
+    'Now I would turn on the
+    coffee maker and wait until the cup is completely filled. Then I would walk back through the living room and foyer
+    into the dining room with the coffee cup and give it to you in your left hand since the other is already holding
+    something.' OK, good thinking about the free hand
+
+    No critical errors, you just miscounted the objects you were carrying at one point, but it didn't affect the
+    outcome, also you tried not to carry everything at once, which is good. You also checked the water level, which is
+    important.
+    </feedbackText>
+</feedback>

@@ -1,0 +1,98 @@
+<feedback>
+    <timestamp>2024-03-23 21:54:39</timestamp>
+    <prompt id="2">
+        <value>
+            Imagine you are standing in front of a house, the details of which I will provide shortly. Your mission is
+            to
+            mentally enter this house and prepare a cup of coffee for me. It is crucial to approach this task with
+            meticulous attention to detail, outlining each step of the process clearly. Assume that the environment
+            contains
+            only those elements I explicitly describe; if an item or feature is not mentioned, it does not exist in this
+            scenario. Here is the description of the house, containing all the necessary information for your task:
+            After
+            entering through the front door, you are welcomed by the foyer. In the foyer you can find a drawer
+            containing a
+            jar filled with coffee beans. To the right side of the foyer you can find a living room that is filled with
+            natural light. There you can find a plush sofa, a designer coffee table, a fireplace, a large TV and some
+            artworks mounted on the walls. Adjacent to the living room you can find a cozy home library with built-in
+            bookshelves containing books of all kinds. There is a table in the corner of the room, on top of it is an
+            empty
+            cup. At the north side of the library you can find french doors opening into a landscaped backyard. To the
+            left
+            side of the foyer you will find a modern dining room with a long mahogany table right in the middle of it,
+            surrounded by 8 chairs. I am sitting in one of those chairs with an unplugged coffee grinder in front of me.
+            Further
+            down the dining room you can find the heart of the home - a spacious open-concept kitchen filled with
+            stainless
+            steel appliances, granite countertops and a cooking island in the middle. One of the countertops features a
+            sink
+            dispensing drinkable water. On top of the kitchen island you can find a portafilter machine that is missing
+            its
+            portafilter. The foyer also features a staircase. Upstairs you can find the private quarters. There you can
+            find
+            two bathrooms, a master suite and a guest suite. The master suite offers a generous bedroom with a king-size
+            bed, a walk-in closet and a private balcony overlooking the backyard. The closet is packed with three
+            drawers.
+            The middle one contains a portafilter. There are several power-outlets in each room.
+        </value>
+    </prompt>
+    <responseText>
+        Given the details provided, here's how I would prepare a cup of coffee for you:
+
+        1. **Retrieve the Coffee Beans**: First, I would head to the foyer and open the drawer to take out the jar
+        filled with coffee beans.
+
+        2. **Find the Portafilter**: Next, I would make my way upstairs to the master suite, locate the walk-in closet,
+        and open the middle drawer to retrieve the portafilter.
+
+        3. **Grind the Coffee Beans**: With the coffee beans and portafilter in hand, I would return to the dining room
+        where you are sitting with the unplugged coffee grinder. I would plug in the coffee grinder to one of the power
+        outlets in the dining room and grind the coffee beans to the appropriate coarseness for the portafilter machine.
+        After grinding, I would fill the portafilter with the freshly ground coffee.
+
+        4. **Prepare the Portafilter Machine**: I would carry the filled portafilter to the kitchen and attach it to the
+        portafilter machine that's on top of the kitchen island.
+
+        5. **Heat Water**: Assuming the portafilter machine heats water as part of its functionality (since no kettle or
+        alternative method of heating water was mentioned), I would turn on the machine to heat the water to the right
+        temperature for brewing espresso.
+
+        6. **Fetch the Cup**: While the machine is heating, I would go to the home library to get the empty cup waiting
+        on the table in the corner.
+
+        7. **Brew the Coffee**: Returning to the kitchen, I would place the cup under the portafilter on the machine and
+        start the espresso brewing process.
+
+        8. **Serve the Coffee**: Once the coffee is brewed, I would carefully carry the cup back to the dining room and
+        serve it to you, ensuring not to spill any on the mahogany table or the floor.
+
+        Throughout this process, I would make sure to move efficiently between rooms, paying close attention to the
+        details of the house layout and the task at hand to avoid any mistakes, ensuring that you receive a perfectly
+        brewed cup of coffee.
+    </responseText>
+    <feedbackRating>2</feedbackRating>
+    <feedbackText>
+        '1. **Retrieve the Coffee Beans**: First, I would head to the foyer and open the drawer to take out the jar
+        filled with coffee beans.' OK
+        '2. **Find the Portafilter**: Next, I would make my way upstairs to the master suite, locate the walk-in closet,
+        and open the middle drawer to retrieve the portafilter.' OK
+        '3. **Grind the Coffee Beans**: With the coffee beans and portafilter in hand, I would return to the dining room
+        where you are sitting with the unplugged coffee grinder. I would plug in the coffee grinder to one of the power
+        outlets in the dining room and grind the coffee beans to the appropriate coarseness for the portafilter machine.
+        After grinding, I would fill the portafilter with the freshly ground coffee.' OK, should have mentioned putting
+        the beans into the grinder.
+        '4. **Prepare the Portafilter Machine**: I would carry the filled portafilter to the kitchen and attach it to
+        the portafilter machine that's on top of the kitchen island.'
+        '5. **Heat Water**: Assuming the portafilter machine heats water as part of its functionality (since no kettle
+        or alternative method of heating water was mentioned), I would turn on the machine to heat the water to the
+        right temperature for brewing espresso.' OK, but you did not check if there is any water inside
+        '6. **Fetch the Cup**: While the machine is heating, I would go to the home library to get the empty cup waiting
+        on the table in the corner.' OK
+        '7. **Brew the Coffee**: Returning to the kitchen, I would place the cup under the portafilter on the machine
+        and start the espresso brewing process.' OK
+        '8. **Serve the Coffee**: Once the coffee is brewed, I would carefully carry the cup back to the dining room and
+        serve it to you, ensuring not to spill any on the mahogany table or the floor.' OK
+
+        Only forgot to check the water and did not mention putting the beans inside the grinder.
+    </feedbackText>
+</feedback>
